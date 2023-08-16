@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
+.cabeçalho {
+  background-color: skyblue;
+  padding: 1px;
+}
+.box1 {
+  background-color: white;
+  display: flex;
+  width: 190px;
+  height: 10px;
+  padding: 50px;
+  margin-top: 5px;
+  margin-left:15px;
+  box-shadow: 0 10px 10px rgb(129, 129, 129);
+  transform: translateX(15px);
+}
+.box2 {
+  background-color:  white;
+  display: flex;
+  width: 190px;
+  height: 10px;
+  padding: 50px;
+  margin-top: 5px;
+  margin-left: 55px;
+  box-shadow: 0 10px 10px rgb(129, 129, 129);
+}
+.box3 {
+  background-color: white;
+  display: flex;
+  width: 190px;
+  height: 10px;
+  padding: 50px;
+  margin-top: 5px;
+  margin-left: 40px;
+  box-shadow: 0 10px 10px rgb(129, 129, 129);
+
+}
+.box4 {
+  background-color: white;
+  display: flex;
+  width: 190px;
+  height: 10px;
+  padding: 50px;
+  margin-top: 5px;
+  margin-left: 40px;
+  box-shadow: 0 10px 10px rgb(129, 129, 129);
+}
+.caixas {
+  display: flex;
+  flex-wrap: wrap;
+}
+.imagem1{
+  width: 26px;
+  height: 35px;
+  margin-left: -50px;
+  margin-top: -40px;
+  display: flex;
+}
+.imagem{
+  display: flex;
+  margin-left: 10px;
+}
+.Feminino{
+  margin-top: -40px;
+  margin-left: -10px;
+  display: flex;
+}
+.img2{
+  width: 20px;
+  height: 30px;
+  margin-left: -35px;
+  margin-top: -40px;
+  display: flex;
+}
+.Masculino{
+  margin-top: -30px;
+  display: flex;
+}
+.img3{
+  width: 20px;
+  height: 30px;
+  margin-left: -38px;
+  margin-top: -40px;
+  display: flex;
+}
+.Infantil{
+  margin-top: -30px;
+ 
+  display: flex;
+}
+.img4{
+  width: 20px;
+  height: 30px;
+  margin-left: -40px;
+  margin-top: -40px;
+  display: flex;
+}
+.Calçados{
+   width: 15px;
+   height: 20px;
+  margin-top: -30px;
+  display: flex;
+}
+.guardar{
+  display: flex;
+  margin-left: -20px;
+}
+.Femdescric{
+  display:flex;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.Valor{
+  margin-top: -35px;
+  margin-left: 68px;
+  border-radius: 10px;
+  background-color: rgb(8, 132, 180);
+}
+.Mascdescric{
+  display: flex;
+  font-size: 10px;
+  font-family: ;
+}
+.Valor2{
+  margin-top: -35px;
+  margin-left: 75px;
+  border-radius: 10px;
+  background-color: rgb(8, 132, 180);
+}
+.Infantdescric{
+  font-size: 10px;
+}
+.Valor3{
+  margin-top: -35px;
+  margin-left: 55px;
+  border-radius: 10px;
+  background-color: rgb(8, 132, 180);
+}
+.Caldescric{
+  font-size: 10px;
+}
+.Valor4{
+  margin-top: -35px;
+  margin-left: 69px;
+  border-radius: 10px;
+  background-color: rgb(8, 132, 180);
+}
+.Aumentarfun{
+  display: flex;
+  margin-top: -39px;
+  margin-left: 150px;
+  background-color: rgb(8, 132, 180);
+  border-radius: 10px;
+}
+.Itens{
+  display: flex;
+  margin-top: -5px;
+  margin-left: 90px;
+}
+.Aumentarfun2{
+  display: flex;
+  margin-top: -39px;
+  margin-left: 150px;
+  background-color: rgb(8, 132, 180);
+  border-radius: 10px;
+}
+.Itens2{
+ margin-top: 5px;
+ margin-left: 5px;
+}
+.Aumentarfun3{
+  display: flex;
+  margin-top: -37px;
+  margin-left: 150px;
+  background-color: rgb(8, 132, 180);
+  border-radius: 10px;
+}
+.Itens3{
+  display:flex;
+  margin-top: 22px;
+  margin-left: 90px;
+}
+.Aumentarfun4{
+  display: flex;
+  margin-top: -37px;
+  margin-left: 150px;
+  background-color: rgb(8, 132, 180);
+  border-radius: 10px;
+}
+.Itens4{
+  display: flex;
+  margin-top: -1px;
+  margin-left: 85px;
+}
+.Feminino{
+  display: flex;
+  font-size: 18px;
+}
